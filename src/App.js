@@ -85,7 +85,7 @@ function App() {
   );
 
   /* 로딩중일 때 렌더링 할 부분 */
-  let loadingPage = <h1> 로딩중.. </h1>;
+  let loadingPage = <h1> 변경 후 로딩중.. </h1>;
   let content = loadingPage;
 
   if (!loading) {
